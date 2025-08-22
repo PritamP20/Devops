@@ -1,3 +1,8 @@
+# Steps to create a k8s cluster in gcp
+## step 1: Create a gcp cluster in gcp console
+get the connection url from the gcp cluster
+
+
 # To delete a context of a k8s cluster
 ## unset current context if it's pointing to GKE
 kubectl config unset current-context
