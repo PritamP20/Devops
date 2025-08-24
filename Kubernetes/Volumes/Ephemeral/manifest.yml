@@ -27,4 +27,4 @@ spec:
           mountPath: /data
       volumes:
       - name: shared-data
-        emptyDir: {}
+        emptyDir: {} # creating a shared volume inside the node for sharing data between pods
